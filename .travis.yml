@@ -26,3 +26,4 @@ script:
 
 after_success:
   - mvn clean cobertura:cobertura coveralls:report -Ptravis-cobertura
+dist: trusty
